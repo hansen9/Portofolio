@@ -9,4 +9,16 @@ import { createVuetify } from 'vuetify'
 
 export default createVuetify(
   // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
+  {
+    icons: {
+      iconfont: 'fa' || 'md' || 'mdi'
+    },
+    theme: {
+      themes: {
+        dark : {
+          background: '#111111'
+        }
+      }
+    }
+  }
 )
